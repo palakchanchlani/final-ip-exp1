@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home Devices - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2980b9;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        header img {
+            max-width: 120px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 1000px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #2980b9;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ul {
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        ul li:hover {
+            background-color: #dcdde1;
+        }
+
+        audio, video {
+            display: block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            display: inline-block;
+            background-color: #0b0bea;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+
+        footer {
+            background-color: #4532ef;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        footer nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        footer nav a:hover {
+            color: #060ccd;
+        }
+
+        footer p {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header with Logo and Company Name -->
+    <header>
+        <img src="logo.png" alt="Smart Home Devices Logo">
+        <h1>Smart Home Devices</h1>
+        <p>Innovating Your Home with the Latest Technology</p>
+    </header>
+
+    <!-- Main Section -->
+    <section>
+
+        <!-- About Us -->
+        <h2>About Us</h2>
+        <table>
+            <tr>
+                <th>Company</th>
+                <td>Smart Home Devices</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>1234 Tech Street, munciple road, Mumbai, India</td>
+            </tr>
+            <tr>
+                <th>Contact</th>
+                <td>Email: support@smarthome.com | Phone: +91 9456789023</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>We specialize in providing cutting-edge smart home devices to elevate your home's convenience, security, and efficiency.</td>
+            </tr>
+        </table>
+
+        <!-- Our Products -->
+        <h2>Our Products</h2>
+        <ul>
+            <li>Smart Security Cameras - Enhance your home’s security with our latest AI-powered cameras.</li>
+            <li>Smart Thermostats - Automate and optimize your home’s temperature with ease.</li>
+            <li>Smart Lighting Systems - Control your lighting from anywhere with voice and app control.</li>
+            <li>Smart Doorbells - See who’s at the door from your smartphone.</li>
+            <li>Voice-Controlled Home Assistants - Manage your smart devices effortlessly with voice commands.</li>
+        </ul>
+
+        <!-- Introduction Audio -->
+        <h2>Listen to Our Introduction</h2>
+        <audio controls>
+            <source src="introduction.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- Promotional Video -->
+        <h2>Product Showcase</h2>
+        <video controls>
+            <source src="promo-video1.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <!-- Call to Action Button -->
+        <button onclick="alert('Thank you for your interest! We will contact you soon.')">Contact Us for More Info</button>
+
+    </section>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <nav>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </nav>
+        <p>&copy; 2024 Smart Home Devices. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
